@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HoverOnLabel_GlobalTranslationKey_Label</name>
+   <tag></tag>
+   <elementGuidId>791fb5fe-65a9-4056-994b-62600849d6bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(.,'HT_GlobalTranslationKey')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(.,'HT_GlobalTranslationKey')]</value>
+   </webElementProperties>
+</WebElementEntity>

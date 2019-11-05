@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Redirect_Click</name>
+   <tag></tag>
+   <elementGuidId>ccd07ed6-9d5d-4188-9445-81501dac43a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@controlholdername='RedirectToBaidu_']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@controlholdername='RedirectToBaidu_']/div/div</value>
+   </webElementProperties>
+</WebElementEntity>

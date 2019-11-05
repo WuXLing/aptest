@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AcceptCustomValue</name>
+   <tag></tag>
+   <elementGuidId>93dd7e0e-80a3-44be-8d18-e58aa093c563</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@controlholdername='AcceptCustomValue']/div/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@controlholdername='AcceptCustomValue']/div/div/div/input</value>
+   </webElementProperties>
+</WebElementEntity>

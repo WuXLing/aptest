@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PList_Custom_Click</name>
+   <tag></tag>
+   <elementGuidId>c72c6cf0-9640-4cc0-a7b8-dbab2d94e594</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@controlholdername='Plist_Custom']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@controlholdername='Plist_Custom']/div/div</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MSListBoxTestCases" time="224.564" tests="9" failures="0" errors="0">
+   <testsuite name="MSListBoxTestCases" tests="9" failures="0" errors="0" time="224.564" timestamp="2019-11-04 11:01:59" hostname="Lynn - HZQA2" id="Test Suites/MSListBoxTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Test Multi-Select Listbox Control\\Reports\\20191104_110153\\MSListBoxTestCases\\20191104_110153"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Test Multi-Select Listbox Control\\Reports\\20191104_110153\\MSListBoxTestCases\\20191104_110153\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lynn - HZQA2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.8.1"/>
+         <property name="sessionId" value="2a57b86c6b286d240dc63cbfc3ef34e0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Label" time="41.661" classname="Test Cases/Label" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:02:00 - [TEST_CASE][PASSED] - Test Cases/Label: Test Cases/Label
+
+2019-11-04 11:02:00 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith(): com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2019-11-04 11:02:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-04 11:02:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-04 11:02:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://r2:13491'
+
+2019-11-04 11:02:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 11:02:11 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-11-04 11:02:12 - [MESSAGE][PASSED] - Text 'ADW2012R2' is set on object 'Object Repository/AgilePointNX Metadata/Domain'
+
+2019-11-04 11:02:12 - [MESSAGE][PASSED] - Text 'Administrator' is set on object 'Object Repository/AgilePointNX Metadata/UserName'
+
+2019-11-04 11:02:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AgilePointNX Metadata/Password'
+
+2019-11-04 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SubmitButton' is clicked on
+
+2019-11-04 11:02:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-04 11:02:14 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2019-11-04 11:02:14 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.NavigateToProcess(): com.helper.login.LoginHelper.NavigateToProcess is PASSED
+
+2019-11-04 11:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnWorkCenter' is clicked on
+
+2019-11-04 11:02:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-04 11:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnMyApplication' is hovered
+
+2019-11-04 11:02:18 - [MESSAGE][PASSED] - Object 'Object Repository/AgilePointNX Metadata/ClickOnMyApplication' is clickable
+
+2019-11-04 11:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnMyApplication' is clicked on
+
+2019-11-04 11:02:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:22 - [MESSAGE][PASSED] - Text 'MSListBox_Auto' is set on object 'Object Repository/AgilePointNX Metadata/SearchApplication'
+
+2019-11-04 11:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SelectProcessFromMyApps' is hovered
+
+2019-11-04 11:02:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SelectProcessFromMyApps' is clicked on
+
+2019-11-04 11:02:24 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-11-04 11:02:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 11:02:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-04 11:02:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 11:02:30 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.NavigateToProcess is PASSED
+
+2019-11-04 11:02:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-04 11:02:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-04 11:02:33 - [TEST_STEP][PASSED] - x = random.Common.getRandom(1, 999999999): random.Common.getRandom is PASSED
+
+2019-11-04 11:02:33 - [MESSAGE][PASSED] - random.Common.getRandom is PASSED
+
+2019-11-04 11:02:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Label/AccountName"), x): Text '932934680' is set on object 'Object Repository/Label/AccountName'
+
+2019-11-04 11:02:35 - [MESSAGE][PASSED] - Text '932934680' is set on object 'Object Repository/Label/AccountName'
+
+2019-11-04 11:02:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/EmptyLabel"), ""): Actual text and expected text of test object 'Object Repository/Label/EmptyLabel' are matched.
+
+2019-11-04 11:02:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/EmptyLabel' are matched.
+
+2019-11-04 11:02:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/SpeicalCharactersLabel"), "@#$%"): Actual text and expected text of test object 'Object Repository/Label/SpeicalCharactersLabel' are matched.
+
+2019-11-04 11:02:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/SpeicalCharactersLabel' are matched.
+
+2019-11-04 11:02:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/SCLabel"), "中文简体标签"): Actual text and expected text of test object 'Object Repository/Label/SCLabel' are matched.
+
+2019-11-04 11:02:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/SCLabel' are matched.
+
+2019-11-04 11:02:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/TCLabel"), "繁體中文憂鬱的烏龜"): Actual text and expected text of test object 'Object Repository/Label/TCLabel' are matched.
+
+2019-11-04 11:02:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/TCLabel' are matched.
+
+2019-11-04 11:02:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/JPLabel"), "日本語ラベル"): Actual text and expected text of test object 'Object Repository/Label/JPLabel' are matched.
+
+2019-11-04 11:02:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/JPLabel' are matched.
+
+2019-11-04 11:02:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/HBLabel"), "אחר צהריים טובים"): Actual text and expected text of test object 'Object Repository/Label/HBLabel' are matched.
+
+2019-11-04 11:02:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/HBLabel' are matched.
+
+2019-11-04 11:02:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/NumberSpaceLabel"), "a  23 456"): Actual text and expected text of test object 'Object Repository/Label/NumberSpaceLabel' are matched.
+
+2019-11-04 11:02:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/NumberSpaceLabel' are matched.
+
+2019-11-04 11:02:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/GlobalDataLabel"), sss): Actual text and expected text of test object 'Object Repository/Label/GlobalDataLabel' are matched.
+
+2019-11-04 11:02:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/GlobalDataLabel' are matched.
+
+2019-11-04 11:02:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/GlobalTranslationKey_Label"), "Test 1"): Actual text and expected text of test object 'Object Repository/Label/GlobalTranslationKey_Label' are matched.
+
+2019-11-04 11:02:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/GlobalTranslationKey_Label' are matched.
+
+2019-11-04 11:02:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/LongLabel"), "Text Box 3Text Box 3Text Box 3Text Box 3Text Box 3Text Box 3Text Box 3Text Box 3"): Actual text and expected text of test object 'Object Repository/Label/LongLabel' are matched.
+
+2019-11-04 11:02:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/LongLabel' are matched.
+
+2019-11-04 11:02:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:40 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:41 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InternalName" time="4.017" classname="Test Cases/InternalName" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:02:41 - [TEST_CASE][PASSED] - Test Cases/InternalName: Test Cases/InternalName
+
+2019-11-04 11:02:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("InternalName/_AsInternalName"), 1): Object 'Object Repository/InternalName/_AsInternalName' is present
+
+2019-11-04 11:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/InternalName/_AsInternalName' is present
+
+2019-11-04 11:02:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("InternalName/NumberInternalName"), 1): Object 'Object Repository/InternalName/NumberInternalName' is present
+
+2019-11-04 11:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/InternalName/NumberInternalName' is present
+
+2019-11-04 11:02:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("InternalName/LongInternalName"), 1): Object 'Object Repository/InternalName/LongInternalName' is present
+
+2019-11-04 11:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/InternalName/LongInternalName' is present
+
+2019-11-04 11:02:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:44 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:45 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HelpText" time="13.613" classname="Test Cases/HelpText" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:02:45 - [TEST_CASE][PASSED] - Test Cases/HelpText: Test Cases/HelpText
+
+2019-11-04 11:02:46 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HoverOnLabel_Empty"), "title", "", 1): Object 'Object Repository/HelpText/HoverOnLabel_Empty' has attribute 'title' with value ''
+
+2019-11-04 11:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HoverOnLabel_Empty' has attribute 'title' with value ''
+
+2019-11-04 11:02:46 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/SpecialHelpText"), "title", "`~!@#$%^&*()_+{}|:"<>? -= []\;',./", 1): Object 'Object Repository/HelpText/SpecialHelpText' has attribute 'title' with value '`~!@#$%^&*()_+{}|:"<>? -= []\;',./'
+
+2019-11-04 11:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/SpecialHelpText' has attribute 'title' with value '`~!@#$%^&*()_+{}|:"<>? -= []\;',./'
+
+2019-11-04 11:02:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HoverOnLabel_SC"), "title", "阿拉伯忧郁的乌龟", 1): Object 'Object Repository/HelpText/HoverOnLabel_SC' has attribute 'title' with value '阿拉伯忧郁的乌龟'
+
+2019-11-04 11:02:48 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HoverOnLabel_SC' has attribute 'title' with value '阿拉伯忧郁的乌龟'
+
+2019-11-04 11:02:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HoverOnLabel_TC"), "title", "阿拉伯憂鬱的烏龜", 1): Object 'Object Repository/HelpText/HoverOnLabel_TC' has attribute 'title' with value '阿拉伯憂鬱的烏龜'
+
+2019-11-04 11:02:48 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HoverOnLabel_TC' has attribute 'title' with value '阿拉伯憂鬱的烏龜'
+
+2019-11-04 11:02:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HoverOnField_TC"), "title", "阿拉伯憂鬱的烏龜", 1): Object 'Object Repository/HelpText/HoverOnField_TC' has attribute 'title' with value '阿拉伯憂鬱的烏龜'
+
+2019-11-04 11:02:49 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HoverOnField_TC' has attribute 'title' with value '阿拉伯憂鬱的烏龜'
+
+2019-11-04 11:02:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HT_JP"), "title", "アラブの憂鬱なカメ", 1): Object 'Object Repository/HelpText/HT_JP' has attribute 'title' with value 'アラブの憂鬱なカメ'
+
+2019-11-04 11:02:50 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HT_JP' has attribute 'title' with value 'アラブの憂鬱なカメ'
+
+2019-11-04 11:02:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HT_HB"), "title", "אחר צהריים טובים", 1): Object 'Object Repository/HelpText/HT_HB' has attribute 'title' with value 'אחר צהריים טובים'
+
+2019-11-04 11:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HT_HB' has attribute 'title' with value 'אחר צהריים טובים'
+
+2019-11-04 11:02:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HT_NumberAndSpace"), "title", "234  567 8", 1): Object 'Object Repository/HelpText/HT_NumberAndSpace' has attribute 'title' with value '234  567 8'
+
+2019-11-04 11:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HT_NumberAndSpace' has attribute 'title' with value '234  567 8'
+
+2019-11-04 11:02:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HT_GlobalData"), "title", sss, 1): Object 'Object Repository/HelpText/HT_GlobalData' has attribute 'title' with value 'rr'
+
+2019-11-04 11:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HT_GlobalData' has attribute 'title' with value 'rr'
+
+2019-11-04 11:02:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/HoverOnLabel_GlobalTranslationKey_Label"), "title", "Test 1", 1): Object 'Object Repository/HelpText/HoverOnLabel_GlobalTranslationKey_Label' has attribute 'title' with value 'Test 1'
+
+2019-11-04 11:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/HoverOnLabel_GlobalTranslationKey_Label' has attribute 'title' with value 'Test 1'
+
+2019-11-04 11:02:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:02:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/Long_HelpText"), "title", "This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!", 1): Object 'Object Repository/HelpText/Long_HelpText' has attribute 'title' with value 'This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!'
+
+2019-11-04 11:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/Long_HelpText' has attribute 'title' with value 'This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!This is a long help text!'
+
+2019-11-04 11:02:57 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:02:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:02:59 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mandatory" time="19.186" classname="Test Cases/Mandatory" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:02:59 - [TEST_CASE][PASSED] - Test Cases/Mandatory: Test Cases/Mandatory
+
+2019-11-04 11:02:59 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/SubmitForm")): Object: 'Object Repository/AgilePointNX Metadata/SubmitForm' is clicked on
+
+2019-11-04 11:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SubmitForm' is clicked on
+
+2019-11-04 11:03:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:01 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/CloseError")): Object: 'Object Repository/AgilePointNX Metadata/CloseError' is clicked on
+
+2019-11-04 11:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/CloseError' is clicked on
+
+2019-11-04 11:03:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/NotMandatory"), ""): Actual text and expected text of test object 'Object Repository/4.Mandatory/NotMandatory' are matched.
+
+2019-11-04 11:03:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/NotMandatory' are matched.
+
+2019-11-04 11:03:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/Mandatory_Default_Message"), "Choose Options from the M_Default"): Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_Default_Message' are matched.
+
+2019-11-04 11:03:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_Default_Message' are matched.
+
+2019-11-04 11:03:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:05 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/M_Default_Click")): Object: 'Object Repository/4.Mandatory/M_Default_Click' is clicked on
+
+2019-11-04 11:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/M_Default_Click' is clicked on
+
+2019-11-04 11:03:05 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/Mandatory_Default")): Object: 'Object Repository/4.Mandatory/Mandatory_Default' is clicked on
+
+2019-11-04 11:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/Mandatory_Default' is clicked on
+
+2019-11-04 11:03:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/Mandatory_SC_Message"), "请在 M_SC选择一个选项"): Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_SC_Message' are matched.
+
+2019-11-04 11:03:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_SC_Message' are matched.
+
+2019-11-04 11:03:07 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/M_SC_Click")): Object: 'Object Repository/4.Mandatory/M_SC_Click' is clicked on
+
+2019-11-04 11:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/M_SC_Click' is clicked on
+
+2019-11-04 11:03:07 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/Mandatory_SC")): Object: 'Object Repository/4.Mandatory/Mandatory_SC' is clicked on
+
+2019-11-04 11:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/Mandatory_SC' is clicked on
+
+2019-11-04 11:03:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/Mandatory_JP_Message"), "オプションを選択してください"): Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_JP_Message' are matched.
+
+2019-11-04 11:03:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_JP_Message' are matched.
+
+2019-11-04 11:03:09 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/M_JP_Click")): Object: 'Object Repository/4.Mandatory/M_JP_Click' is clicked on
+
+2019-11-04 11:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/M_JP_Click' is clicked on
+
+2019-11-04 11:03:10 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/Mandatory_JP")): Object: 'Object Repository/4.Mandatory/Mandatory_JP' is clicked on
+
+2019-11-04 11:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/Mandatory_JP' is clicked on
+
+2019-11-04 11:03:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/Mandatory_GlobalData_Message"), sss): Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_GlobalData_Message' are matched.
+
+2019-11-04 11:03:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/Mandatory_GlobalData_Message' are matched.
+
+2019-11-04 11:03:11 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/M_Global_Click")): Object: 'Object Repository/4.Mandatory/M_Global_Click' is clicked on
+
+2019-11-04 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/M_Global_Click' is clicked on
+
+2019-11-04 11:03:12 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/Mandatory_GlobalData")): Object: 'Object Repository/4.Mandatory/Mandatory_GlobalData' is clicked on
+
+2019-11-04 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/Mandatory_GlobalData' is clicked on
+
+2019-11-04 11:03:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("4.Mandatory/AcceptCustomValue"), "efg"): Text 'efg' is set on object 'Object Repository/4.Mandatory/AcceptCustomValue'
+
+2019-11-04 11:03:14 - [MESSAGE][PASSED] - Text 'efg' is set on object 'Object Repository/4.Mandatory/AcceptCustomValue'
+
+2019-11-04 11:03:14 - [TEST_STEP][PASSED] - click(findTestObject("4.Mandatory/Accept_Label")): Object: 'Object Repository/4.Mandatory/Accept_Label' is clicked on
+
+2019-11-04 11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Mandatory/Accept_Label' is clicked on
+
+2019-11-04 11:03:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4.Mandatory/VerifyCustom"), 1): Object 'Object Repository/4.Mandatory/VerifyCustom' is present
+
+2019-11-04 11:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/4.Mandatory/VerifyCustom' is present
+
+2019-11-04 11:03:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:16 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:18 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListType" time="32.894" classname="Test Cases/ListType" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:03:18 - [TEST_CASE][PASSED] - Test Cases/ListType: Test Cases/ListType
+
+2019-11-04 11:03:18 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/Inlist1_Click")): Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:19 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList1_O1")): Object: 'Object Repository/5.InlineList/InList1_O1' is clicked on
+
+2019-11-04 11:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList1_O1' is clicked on
+
+2019-11-04 11:03:20 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/Inlist1_Click")): Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:21 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InlineList1")): Object: 'Object Repository/5.InlineList/InlineList1' is clicked on
+
+2019-11-04 11:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InlineList1' is clicked on
+
+2019-11-04 11:03:21 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/Inlist1_Click")): Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/Inlist1_Click' is clicked on
+
+2019-11-04 11:03:22 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList1_O3")): Object: 'Object Repository/5.InlineList/InList1_O3' is clicked on
+
+2019-11-04 11:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList1_O3' is clicked on
+
+2019-11-04 11:03:22 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList2_Click")): Object: 'Object Repository/5.InlineList/InList2_Click' is clicked on
+
+2019-11-04 11:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList2_Click' is clicked on
+
+2019-11-04 11:03:23 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InlineList2")): Object: 'Object Repository/5.InlineList/InlineList2' is clicked on
+
+2019-11-04 11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InlineList2' is clicked on
+
+2019-11-04 11:03:24 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList3_Click")): Object: 'Object Repository/5.InlineList/InList3_Click' is clicked on
+
+2019-11-04 11:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList3_Click' is clicked on
+
+2019-11-04 11:03:25 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InlineList3")): Object: 'Object Repository/5.InlineList/InlineList3' is clicked on
+
+2019-11-04 11:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InlineList3' is clicked on
+
+2019-11-04 11:03:26 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList4_Click")): Object: 'Object Repository/5.InlineList/InList4_Click' is clicked on
+
+2019-11-04 11:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList4_Click' is clicked on
+
+2019-11-04 11:03:26 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InlineList4")): Object: 'Object Repository/5.InlineList/InlineList4' is clicked on
+
+2019-11-04 11:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InlineList4' is clicked on
+
+2019-11-04 11:03:27 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InList5_Click")): Object: 'Object Repository/5.InlineList/InList5_Click' is clicked on
+
+2019-11-04 11:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InList5_Click' is clicked on
+
+2019-11-04 11:03:28 - [TEST_STEP][PASSED] - click(findTestObject("5.InlineList/InlineList5")): Object: 'Object Repository/5.InlineList/InlineList5' is clicked on
+
+2019-11-04 11:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/5.InlineList/InlineList5' is clicked on
+
+2019-11-04 11:03:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InlineList6_VerifyDefault"), 1, STOP_ON_FAILURE): Object 'Object Repository/5.InlineList/InlineList6_VerifyDefault' is present
+
+2019-11-04 11:03:29 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InlineList6_VerifyDefault' is present
+
+2019-11-04 11:03:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:30 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PL_Countries_Click")): Object: 'Object Repository/6.PredefinedList/PL_Countries_Click' is clicked on
+
+2019-11-04 11:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PL_Countries_Click' is clicked on
+
+2019-11-04 11:03:31 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PreList_Countries")): Object: 'Object Repository/6.PredefinedList/PreList_Countries' is clicked on
+
+2019-11-04 11:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PreList_Countries' is clicked on
+
+2019-11-04 11:03:32 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PL_Locale_Click")): Object: 'Object Repository/6.PredefinedList/PL_Locale_Click' is clicked on
+
+2019-11-04 11:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PL_Locale_Click' is clicked on
+
+2019-11-04 11:03:33 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PreList_Locale")): Object: 'Object Repository/6.PredefinedList/PreList_Locale' is clicked on
+
+2019-11-04 11:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PreList_Locale' is clicked on
+
+2019-11-04 11:03:34 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PL_Custom_Click")): Object: 'Object Repository/6.PredefinedList/PL_Custom_Click' is clicked on
+
+2019-11-04 11:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PL_Custom_Click' is clicked on
+
+2019-11-04 11:03:34 - [TEST_STEP][PASSED] - click(findTestObject("6.PredefinedList/PreList_Custom")): Object: 'Object Repository/6.PredefinedList/PreList_Custom' is clicked on
+
+2019-11-04 11:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/6.PredefinedList/PreList_Custom' is clicked on
+
+2019-11-04 11:03:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:36 - [TEST_STEP][PASSED] - click(findTestObject("7.PickList/PList1_Click")): Object: 'Object Repository/7.PickList/PList1_Click' is clicked on
+
+2019-11-04 11:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/7.PickList/PList1_Click' is clicked on
+
+2019-11-04 11:03:37 - [TEST_STEP][PASSED] - click(findTestObject("7.PickList/PickList1")): Object: 'Object Repository/7.PickList/PickList1' is clicked on
+
+2019-11-04 11:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/7.PickList/PickList1' is clicked on
+
+2019-11-04 11:03:38 - [TEST_STEP][PASSED] - click(findTestObject("7.PickList/PList_Custom_Click")): Object: 'Object Repository/7.PickList/PList_Custom_Click' is clicked on
+
+2019-11-04 11:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/7.PickList/PList_Custom_Click' is clicked on
+
+2019-11-04 11:03:38 - [TEST_STEP][PASSED] - click(findTestObject("7.PickList/PickList_Custom")): Object: 'Object Repository/7.PickList/PickList_Custom' is clicked on
+
+2019-11-04 11:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/7.PickList/PickList_Custom' is clicked on
+
+2019-11-04 11:03:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:40 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup1_DB1_Click")): Object: 'Object Repository/8.Lookup/Lookup1_DB1_Click' is clicked on
+
+2019-11-04 11:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup1_DB1_Click' is clicked on
+
+2019-11-04 11:03:41 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup_DB1")): Object: 'Object Repository/8.Lookup/Lookup_DB1' is clicked on
+
+2019-11-04 11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup_DB1' is clicked on
+
+2019-11-04 11:03:42 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup2_DB2_Click")): Object: 'Object Repository/8.Lookup/Lookup2_DB2_Click' is clicked on
+
+2019-11-04 11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup2_DB2_Click' is clicked on
+
+2019-11-04 11:03:42 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup_DB2")): Object: 'Object Repository/8.Lookup/Lookup_DB2' is clicked on
+
+2019-11-04 11:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup_DB2' is clicked on
+
+2019-11-04 11:03:43 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup3_DE_Click")): Object: 'Object Repository/8.Lookup/Lookup3_DE_Click' is clicked on
+
+2019-11-04 11:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup3_DE_Click' is clicked on
+
+2019-11-04 11:03:44 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup_DE")): Object: 'Object Repository/8.Lookup/Lookup_DE' is clicked on
+
+2019-11-04 11:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup_DE' is clicked on
+
+2019-11-04 11:03:45 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup4_DE2_Click")): Object: 'Object Repository/8.Lookup/Lookup4_DE2_Click' is clicked on
+
+2019-11-04 11:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup4_DE2_Click' is clicked on
+
+2019-11-04 11:03:46 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup_DE_Custom")): Object: 'Object Repository/8.Lookup/Lookup_DE_Custom' is clicked on
+
+2019-11-04 11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup_DE_Custom' is clicked on
+
+2019-11-04 11:03:47 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup5_REST_Click")): Object: 'Object Repository/8.Lookup/Lookup5_REST_Click' is clicked on
+
+2019-11-04 11:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup5_REST_Click' is clicked on
+
+2019-11-04 11:03:47 - [TEST_STEP][PASSED] - click(findTestObject("8.Lookup/Lookup_REST")): Object: 'Object Repository/8.Lookup/Lookup_REST' is clicked on
+
+2019-11-04 11:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/8.Lookup/Lookup_REST' is clicked on
+
+2019-11-04 11:03:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:49 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:51 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Behavior" time="7.421" classname="Test Cases/Behavior" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:03:51 - [TEST_CASE][PASSED] - Test Cases/Behavior: Test Cases/Behavior
+
+2019-11-04 11:03:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:52 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute(findTestObject("Behavior/CheckEnable"), "disabled", 1, STOP_ON_FAILURE): Object 'Object Repository/Behavior/CheckEnable' does not have attribute 'disabled'
+
+2019-11-04 11:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/Behavior/CheckEnable' does not have attribute 'disabled'
+
+2019-11-04 11:03:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Behavior/CheckDisable"), "disabled", "true", 1): Object 'Object Repository/Behavior/CheckDisable' has attribute 'disabled' with value 'true'
+
+2019-11-04 11:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/Behavior/CheckDisable' has attribute 'disabled' with value 'true'
+
+2019-11-04 11:03:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Behavior/Visible")): Object 'Object Repository/Behavior/Visible' is visible
+
+2019-11-04 11:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Behavior/Visible' is visible
+
+2019-11-04 11:03:55 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Behavior/Invisable")): Object 'Object Repository/Behavior/Invisable' is NOT visible
+
+2019-11-04 11:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/Behavior/Invisable' is NOT visible
+
+2019-11-04 11:03:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:03:57 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:03:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:03:58 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Advanced" time="11.438" classname="Test Cases/Advanced" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:03:58 - [TEST_CASE][PASSED] - Test Cases/Advanced: Test Cases/Advanced
+
+2019-11-04 11:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/Blur_Click")): Object: 'Object Repository/Advanced/Blur_Click' is clicked on
+
+2019-11-04 11:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/Blur_Click' is clicked on
+
+2019-11-04 11:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/Change_Click")): Object: 'Object Repository/Advanced/Change_Click' is clicked on
+
+2019-11-04 11:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/Change_Click' is clicked on
+
+2019-11-04 11:04:00 - [TEST_STEP][PASSED] - waitForAlert(1): Alert is present after 1 second(s).
+
+2019-11-04 11:04:00 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+2019-11-04 11:04:00 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-11-04 11:04:00 - [MESSAGE][PASSED] - Alert accepted
+
+2019-11-04 11:04:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/Change_Click")): Object: 'Object Repository/Advanced/Change_Click' is clicked on
+
+2019-11-04 11:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/Change_Click' is clicked on
+
+2019-11-04 11:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/JS_Change")): Object: 'Object Repository/Advanced/JS_Change' is clicked on
+
+2019-11-04 11:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/JS_Change' is clicked on
+
+2019-11-04 11:04:02 - [TEST_STEP][PASSED] - waitForAlert(1): Alert is present after 1 second(s).
+
+2019-11-04 11:04:02 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+2019-11-04 11:04:02 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-11-04 11:04:02 - [MESSAGE][PASSED] - Alert accepted
+
+2019-11-04 11:04:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/Persist_Click")): Object: 'Object Repository/Advanced/Persist_Click' is clicked on
+
+2019-11-04 11:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/Persist_Click' is clicked on
+
+2019-11-04 11:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/Persist")): Object: 'Object Repository/Advanced/Persist' is clicked on
+
+2019-11-04 11:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/Persist' is clicked on
+
+2019-11-04 11:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/NotPersist_Click")): Object: 'Object Repository/Advanced/NotPersist_Click' is clicked on
+
+2019-11-04 11:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/NotPersist_Click' is clicked on
+
+2019-11-04 11:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Advanced/NotPersist")): Object: 'Object Repository/Advanced/NotPersist' is clicked on
+
+2019-11-04 11:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Advanced/NotPersist' is clicked on
+
+2019-11-04 11:04:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:07 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:04:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-04 11:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rules" time="23.023" classname="Test Cases/Rules" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:04:10 - [TEST_CASE][PASSED] - Test Cases/Rules: Test Cases/Rules
+
+2019-11-04 11:04:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Rules/Rule_Show")): Object 'Object Repository/Rules/Rule_Show' is visible
+
+2019-11-04 11:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/Rule_Show' is visible
+
+2019-11-04 11:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Rules/Contains_Click")): Object: 'Object Repository/Rules/Contains_Click' is clicked on
+
+2019-11-04 11:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/Contains_Click' is clicked on
+
+2019-11-04 11:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Rules/Contains")): Object: 'Object Repository/Rules/Contains' is clicked on
+
+2019-11-04 11:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/Contains' is clicked on
+
+2019-11-04 11:04:13 - [TEST_STEP][PASSED] - waitForAlert(1): Alert is present after 1 second(s).
+
+2019-11-04 11:04:13 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+2019-11-04 11:04:13 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-11-04 11:04:13 - [MESSAGE][PASSED] - Alert accepted
+
+2019-11-04 11:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Rules/NotContain_Click")): Object: 'Object Repository/Rules/NotContain_Click' is clicked on
+
+2019-11-04 11:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/NotContain_Click' is clicked on
+
+2019-11-04 11:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Rules/NotContain")): Object: 'Object Repository/Rules/NotContain' is clicked on
+
+2019-11-04 11:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/NotContain' is clicked on
+
+2019-11-04 11:04:15 - [TEST_STEP][PASSED] - waitForAlert(1): Alert is present after 1 second(s).
+
+2019-11-04 11:04:15 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+2019-11-04 11:04:15 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-11-04 11:04:15 - [MESSAGE][PASSED] - Alert accepted
+
+2019-11-04 11:04:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Rules/IsEqualTo_Click")): Object: 'Object Repository/Rules/IsEqualTo_Click' is clicked on
+
+2019-11-04 11:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/IsEqualTo_Click' is clicked on
+
+2019-11-04 11:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Rules/EqualTo")): Object: 'Object Repository/Rules/EqualTo' is clicked on
+
+2019-11-04 11:04:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/EqualTo' is clicked on
+
+2019-11-04 11:04:17 - [TEST_STEP][PASSED] - waitForAlert(1): Alert is present after 1 second(s).
+
+2019-11-04 11:04:17 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+2019-11-04 11:04:17 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-11-04 11:04:17 - [MESSAGE][PASSED] - Alert accepted
+
+2019-11-04 11:04:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Rules/SetField"), "value", "SS", 1): Object 'Object Repository/Rules/SetField' has attribute 'value' with value 'SS'
+
+2019-11-04 11:04:18 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/SetField' has attribute 'value' with value 'SS'
+
+2019-11-04 11:04:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Rules/NotEqualTo_Click")): Object: 'Object Repository/Rules/NotEqualTo_Click' is clicked on
+
+2019-11-04 11:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/NotEqualTo_Click' is clicked on
+
+2019-11-04 11:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Rules/NotEqualTo")): Object: 'Object Repository/Rules/NotEqualTo' is clicked on
+
+2019-11-04 11:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/NotEqualTo' is clicked on
+
+2019-11-04 11:04:20 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute(findTestObject("Rules/ChangeToEnabled"), "disabled", 1): Object 'Object Repository/Rules/ChangeToEnabled' does not have attribute 'disabled'
+
+2019-11-04 11:04:21 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/ChangeToEnabled' does not have attribute 'disabled'
+
+2019-11-04 11:04:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Rules/ChangeToDisabled"), "disabled", "true", 1): Object 'Object Repository/Rules/ChangeToDisabled' has attribute 'disabled' with value 'true'
+
+2019-11-04 11:04:21 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/ChangeToDisabled' has attribute 'disabled' with value 'true'
+
+2019-11-04 11:04:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Rules/Mandatory"), "*"): Actual text and expected text of test object 'Object Repository/Rules/Mandatory' are matched.
+
+2019-11-04 11:04:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Rules/Mandatory' are matched.
+
+2019-11-04 11:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Rules/MandatoryValue"), "Mandatory"): Text 'Mandatory' is set on object 'Object Repository/Rules/MandatoryValue'
+
+2019-11-04 11:04:22 - [MESSAGE][PASSED] - Text 'Mandatory' is set on object 'Object Repository/Rules/MandatoryValue'
+
+2019-11-04 11:04:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Rules/NotMandatory"), ""): Actual text and expected text of test object 'Object Repository/Rules/NotMandatory' are matched.
+
+2019-11-04 11:04:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Rules/NotMandatory' are matched.
+
+2019-11-04 11:04:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Rules/ContainData_Click")): Object: 'Object Repository/Rules/ContainData_Click' is clicked on
+
+2019-11-04 11:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/ContainData_Click' is clicked on
+
+2019-11-04 11:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Rules/ContainsData")): Object: 'Object Repository/Rules/ContainsData' is clicked on
+
+2019-11-04 11:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/ContainsData' is clicked on
+
+2019-11-04 11:04:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-04 11:04:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-04 11:04:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rules/AutoLookup"), 1): Object 'Object Repository/Rules/AutoLookup' is present
+
+2019-11-04 11:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/AutoLookup' is present
+
+2019-11-04 11:04:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:04:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Rules/Submit")): Object: 'Object Repository/Rules/Submit' is clicked on
+
+2019-11-04 11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/Submit' is clicked on
+
+2019-11-04 11:04:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-04 11:04:33 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify2ndForm" time="70.989" classname="Test Cases/Verify2ndForm" status="PASSED">
+         <system-out><![CDATA[2019-11-04 11:04:33 - [TEST_CASE][PASSED] - Test Cases/Verify2ndForm: Test Cases/Verify2ndForm
+
+2019-11-04 11:04:33 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.OpenTask(): com.helper.login.LoginHelper.OpenTask is PASSED
+
+2019-11-04 11:04:33 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-11-04 11:04:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-04 11:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnInbox' is clicked on
+
+2019-11-04 11:04:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-04 11:04:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnMyTaskTab' is clicked on
+
+2019-11-04 11:04:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 11:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickFilter' is clicked on
+
+2019-11-04 11:04:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SelectApplication' is clicked on
+
+2019-11-04 11:04:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SelectApplicationName' is clicked on
+
+2019-11-04 11:04:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickApply_Filter' is clicked on
+
+2019-11-04 11:04:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/ClickOnTaskMenu' is clicked on
+
+2019-11-04 11:04:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-11-04 11:04:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 11:04:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-04 11:04:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:04:55 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.OpenTask is PASSED
+
+2019-11-04 11:04:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-04 11:04:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-04 11:04:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/FormData_VariableLabel"), "TestFormDataValue"): Actual text and expected text of test object 'Object Repository/Label/FormData_VariableLabel' are matched.
+
+2019-11-04 11:04:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/FormData_VariableLabel' are matched.
+
+2019-11-04 11:04:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/DataSource_VariableLabel"), x): Actual text and expected text of test object 'Object Repository/Label/DataSource_VariableLabel' are matched.
+
+2019-11-04 11:04:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/DataSource_VariableLabel' are matched.
+
+2019-11-04 11:04:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/ModelDate_VariableLable"), "Test Model Data"): Actual text and expected text of test object 'Object Repository/Label/ModelDate_VariableLable' are matched.
+
+2019-11-04 11:04:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/ModelDate_VariableLable' are matched.
+
+2019-11-04 11:04:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Label/SystemData_VariableLabel"), ApplicationName): Actual text and expected text of test object 'Object Repository/Label/SystemData_VariableLabel' are matched.
+
+2019-11-04 11:05:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Label/SystemData_VariableLabel' are matched.
+
+2019-11-04 11:05:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:01 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:03 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/FormData_HelpText"), "title", "TestFormDataValue", 1): Object 'Object Repository/HelpText/FormData_HelpText' has attribute 'title' with value 'TestFormDataValue'
+
+2019-11-04 11:05:05 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/FormData_HelpText' has attribute 'title' with value 'TestFormDataValue'
+
+2019-11-04 11:05:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/ModelData_HelpText"), "title", "Test Model Data", 1): Object 'Object Repository/HelpText/ModelData_HelpText' has attribute 'title' with value 'Test Model Data'
+
+2019-11-04 11:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/ModelData_HelpText' has attribute 'title' with value 'Test Model Data'
+
+2019-11-04 11:05:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/DataSource_HelpText"), "title", x, 1): Object 'Object Repository/HelpText/DataSource_HelpText' has attribute 'title' with value '932934680'
+
+2019-11-04 11:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/DataSource_HelpText' has attribute 'title' with value '932934680'
+
+2019-11-04 11:05:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HelpText/SystemData_HelpText"), "title", ApplicationName, 1): Object 'Object Repository/HelpText/SystemData_HelpText' has attribute 'title' with value 'MSListBox_Auto'
+
+2019-11-04 11:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/HelpText/SystemData_HelpText' has attribute 'title' with value 'MSListBox_Auto'
+
+2019-11-04 11:05:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:07 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/M_Default_Value"), "Option 2"): Actual text and expected text of test object 'Object Repository/4.Mandatory/M_Default_Value' are matched.
+
+2019-11-04 11:05:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/M_Default_Value' are matched.
+
+2019-11-04 11:05:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/M_SC_Value"), "Option 2"): Actual text and expected text of test object 'Object Repository/4.Mandatory/M_SC_Value' are matched.
+
+2019-11-04 11:05:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/M_SC_Value' are matched.
+
+2019-11-04 11:05:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/M_JP_Value"), "Option 2"): Actual text and expected text of test object 'Object Repository/4.Mandatory/M_JP_Value' are matched.
+
+2019-11-04 11:05:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/M_JP_Value' are matched.
+
+2019-11-04 11:05:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4.Mandatory/M_Global_Value"), "Option 2"): Actual text and expected text of test object 'Object Repository/4.Mandatory/M_Global_Value' are matched.
+
+2019-11-04 11:05:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4.Mandatory/M_Global_Value' are matched.
+
+2019-11-04 11:05:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4.Mandatory/VerifyCustom"), 1): Object 'Object Repository/4.Mandatory/VerifyCustom' is present
+
+2019-11-04 11:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/4.Mandatory/VerifyCustom' is present
+
+2019-11-04 11:05:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:12 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList1_Monday"), 1): Object 'Object Repository/5.InlineList/InList1_Monday' is present
+
+2019-11-04 11:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList1_Monday' is present
+
+2019-11-04 11:05:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList1_Tuesday"), 1): Object 'Object Repository/5.InlineList/InList1_Tuesday' is present
+
+2019-11-04 11:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList1_Tuesday' is present
+
+2019-11-04 11:05:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList1_Tuesday"), 1): Object 'Object Repository/5.InlineList/InList1_Tuesday' is present
+
+2019-11-04 11:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList1_Tuesday' is present
+
+2019-11-04 11:05:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList2_Dog"), 1): Object 'Object Repository/5.InlineList/InList2_Dog' is present
+
+2019-11-04 11:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList2_Dog' is present
+
+2019-11-04 11:05:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList3_Blue"), 1): Object 'Object Repository/5.InlineList/InList3_Blue' is present
+
+2019-11-04 11:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList3_Blue' is present
+
+2019-11-04 11:05:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList4_Three"), 1): Object 'Object Repository/5.InlineList/InList4_Three' is present
+
+2019-11-04 11:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList4_Three' is present
+
+2019-11-04 11:05:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InList5_bbb"), 1): Object 'Object Repository/5.InlineList/InList5_bbb' is present
+
+2019-11-04 11:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InList5_bbb' is present
+
+2019-11-04 11:05:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("5.InlineList/InlineList6_VerifyDefault"), 1): Object 'Object Repository/5.InlineList/InlineList6_VerifyDefault' is present
+
+2019-11-04 11:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/5.InlineList/InlineList6_VerifyDefault' is present
+
+2019-11-04 11:05:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("6.PredefinedList/PL_China"), 1): Object 'Object Repository/6.PredefinedList/PL_China' is present
+
+2019-11-04 11:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/6.PredefinedList/PL_China' is present
+
+2019-11-04 11:05:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("6.PredefinedList/PL_Locale_Value"), 1): Object 'Object Repository/6.PredefinedList/PL_Locale_Value' is present
+
+2019-11-04 11:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/6.PredefinedList/PL_Locale_Value' is present
+
+2019-11-04 11:05:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("6.PredefinedList/PL_Custom_Value"), 1): Object 'Object Repository/6.PredefinedList/PL_Custom_Value' is present
+
+2019-11-04 11:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/6.PredefinedList/PL_Custom_Value' is present
+
+2019-11-04 11:05:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("7.PickList/PList_Standard_Value"), 1): Object 'Object Repository/7.PickList/PList_Standard_Value' is present
+
+2019-11-04 11:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/7.PickList/PList_Standard_Value' is present
+
+2019-11-04 11:05:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("7.PickList/PL_Custom_Value"), 1): Object 'Object Repository/7.PickList/PL_Custom_Value' is present
+
+2019-11-04 11:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/7.PickList/PL_Custom_Value' is present
+
+2019-11-04 11:05:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("8.Lookup/Lookup1_Value"), 1): Object 'Object Repository/8.Lookup/Lookup1_Value' is present
+
+2019-11-04 11:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/8.Lookup/Lookup1_Value' is present
+
+2019-11-04 11:05:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("8.Lookup/Lookup2_Value"), 1): Object 'Object Repository/8.Lookup/Lookup2_Value' is present
+
+2019-11-04 11:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/8.Lookup/Lookup2_Value' is present
+
+2019-11-04 11:05:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("8.Lookup/Lookup3_Value"), 1): Object 'Object Repository/8.Lookup/Lookup3_Value' is present
+
+2019-11-04 11:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/8.Lookup/Lookup3_Value' is present
+
+2019-11-04 11:05:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("8.Lookup/Lookup4_Value"), 1): Object 'Object Repository/8.Lookup/Lookup4_Value' is present
+
+2019-11-04 11:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/8.Lookup/Lookup4_Value' is present
+
+2019-11-04 11:05:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("8.Lookup/Lookup5_Value"), 1): Object 'Object Repository/8.Lookup/Lookup5_Value' is present
+
+2019-11-04 11:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/8.Lookup/Lookup5_Value' is present
+
+2019-11-04 11:05:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Behavior/Advanced Tab")): Object: 'Object Repository/Behavior/Advanced Tab' is clicked on
+
+2019-11-04 11:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Behavior/Advanced Tab' is clicked on
+
+2019-11-04 11:05:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Advanced/Persist_Value"), "Option 2"): Actual text and expected text of test object 'Object Repository/Advanced/Persist_Value' are matched.
+
+2019-11-04 11:05:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Advanced/Persist_Value' are matched.
+
+2019-11-04 11:05:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Advanced/NotPersist_Value"), 1): Web element with id: 'Object Repository/Advanced/NotPersist_Value' located by 'By.xpath: //div[@controlholdername='NotPersist_']/div/div/div/ul/li/span[1]' is not present after '1' second(s)
+
+2019-11-04 11:05:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Advanced/NotPersist_Value' located by 'By.xpath: //div[@controlholdername='NotPersist_']/div/div/div/ul/li/span[1]' is not present after '1' second(s)
+
+2019-11-04 11:05:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:27 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/NextButton")): Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/NextButton' is clicked on
+
+2019-11-04 11:05:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Rules/Redirect_Click")): Object: 'Object Repository/Rules/Redirect_Click' is clicked on
+
+2019-11-04 11:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/Redirect_Click' is clicked on
+
+2019-11-04 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Rules/Redirect_AfterSubmit")): Object: 'Object Repository/Rules/Redirect_AfterSubmit' is clicked on
+
+2019-11-04 11:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rules/Redirect_AfterSubmit' is clicked on
+
+2019-11-04 11:05:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-11-04 11:05:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-04 11:05:32 - [TEST_STEP][PASSED] - click(findTestObject("AgilePointNX Metadata/SubmitForm")): Object: 'Object Repository/AgilePointNX Metadata/SubmitForm' is clicked on
+
+2019-11-04 11:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AgilePointNX Metadata/SubmitForm' is clicked on
+
+2019-11-04 11:05:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-04 11:05:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-04 11:05:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rules/BaiduPage"), 1): Object 'Object Repository/Rules/BaiduPage' is present
+
+2019-11-04 11:05:43 - [MESSAGE][PASSED] - Object 'Object Repository/Rules/BaiduPage' is present
+
+2019-11-04 11:05:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-04 11:05:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-04 11:01:59 - [TEST_SUITE][PASSED] - MSListBoxTestCases: Test Cases/Verify2ndForm]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

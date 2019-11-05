@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LongInternalName</name>
+   <tag></tag>
+   <elementGuidId>6a98532e-f6b5-42f3-8d3d-740e88e07059</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@controlholdername='MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@controlholdername='MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17MultiSelectListBox17']</value>
+   </webElementProperties>
+</WebElementEntity>

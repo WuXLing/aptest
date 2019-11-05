@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PickList_Custom</name>
+   <tag></tag>
+   <elementGuidId>4249a4a2-9a82-4be0-8edb-bc3bf224e0bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//li[contains(.,'TestDisplayTwo')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//li[contains(.,'TestDisplayTwo')])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

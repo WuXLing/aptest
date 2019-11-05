@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LongInternalName_Select</name>
+   <tag></tag>
+   <elementGuidId>432b6c06-c3eb-43c5-8bf5-e6155e579d8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17ListBox17']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LongLabel</name>
+   <tag></tag>
+   <elementGuidId>6e958355-80fb-4d20-8726-65452950ad73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@controlholdername='TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3']/div/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@controlholdername='TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3TextBox3']/div/label/span</value>
+   </webElementProperties>
+</WebElementEntity>
